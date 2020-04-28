@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body {
+        background-color: #00FFFF;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+.container-navbar .nav-atas{
+	position: absolute;
+	width: 100%;
+	height: 10%;
+	background: #fff;
+	border-bottom: 1px solid rgba(2,2,2,.1);
+	z-index: 9999;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container-navbar .nav-atas #profile{
+	margin-top: 20px;
+	margin-right: 40px;
+	text-decoration: none;
+	float: right;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #6d7fcc;
+}
+
+.container-navbar .nav-kiri{
+	position: absolute;
+	top: 0;
+	width: 250px;
+	height: 100%;
+	background: #7386D5;
+	z-index: 9999;
+}
+
+.container-navbar .nav-kiri #nama-web{
+	padding: 7% 0 7% 10%;
+	color: #fff;
+    background: #6d7fcc;
+}
+
+.container-navbar .nav-kiri .menu{
+	margin-top: 30px;
+}
+
+.container-navbar .nav-kiri .menu ul a li{
+	padding: 5% 0 5% 10%;
+	list-style: none;
+	transition: .3s;
+}
+
+.container-navbar .nav-kiri .menu ul a li:hover{
+	color: #7386D5;
+    background: #fff;
+}
+
+.container-navbar .nav-kiri .menu ul a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 14px;
+}
